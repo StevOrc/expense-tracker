@@ -4,11 +4,11 @@ import * as transactionTypes from "./ActionTypes";
 
 const initial_state = {
   transactions: [
-    { id: 1, text: "Gaz", amount: -125 },
-    { id: 2, text: "Salary", amount: 2600 },
-    { id: 3, text: "Bet", amount: -280 },
-    { id: 4, text: "Bet", amount: 437.87 },
-    { id: 5, text: "Food", amount: -187 },
+    { id: 1, text: "Salary", amount: 1000 },
+    { id: 3, text: "Bet", amount: -100 },
+    { id: 5, text: "Food", amount: -200 },
+    { id: 5, text: "Food", amount: -100 },
+    { id: 4, text: "Bet", amount: 150 },
   ],
 };
 
