@@ -17,7 +17,7 @@ export const GlobalContext = createContext(initial_state);
 
 // Provider
 // le GlobalPovider va wrapper tout l'appli => il aura l'App en props, children qui sera l'App wrappée
-export const GloalProvider = ({ children }) => {
+export const GlobalProvider = ({ children }) => {
   const [state, dispatch] = useReducer(AppReducer, initial_state);
 
   /**
