@@ -1,13 +1,25 @@
 import React from "react";
 import "./App.css";
-
-import { GloalProvider } from "./context/GlobalState";
+import {
+  Header,
+  Balance,
+  IncomeExpense,
+  TransactionList,
+  AddTransaction,
+} from "./components/";
+import { GlobalProvider } from "./context/GlobalState";
 
 function App() {
   return (
-    <GloalProvider>
-      <div>App provider</div>
-    </GloalProvider>
+    <GlobalProvider>
+      <Header />
+      <div className="container">
+        <Balance />
+        <IncomeExpense />
+        <TransactionList />
+        <AddTransaction />
+      </div>
+    </GlobalProvider>
   );
 }
 
