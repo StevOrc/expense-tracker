@@ -7,7 +7,7 @@ const initial_state = {
     { id: 1, text: "Salary", amount: 1000 },
     { id: 3, text: "Bet", amount: -100 },
     { id: 5, text: "Food", amount: -200 },
-    { id: 5, text: "Food", amount: -100 },
+    { id: 6, text: "Food", amount: -100 },
     { id: 4, text: "Bet", amount: 150 },
   ],
 };
