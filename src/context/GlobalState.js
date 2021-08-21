@@ -1,15 +1,9 @@
-import React, { Context, createContext, useReducer } from "react";
+import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 import * as transactionTypes from "./ActionTypes";
 
 const initial_state = {
-  transactions: [
-    { id: 1, text: "Salary", amount: 1000 },
-    { id: 3, text: "Bet", amount: -100 },
-    { id: 5, text: "Food", amount: -200 },
-    { id: 6, text: "Food", amount: -100 },
-    { id: 4, text: "Bet", amount: 150 },
-  ],
+  transactions: [{ id: 1, text: "Salary", amount: 1000 }],
 };
 
 // Create Context
