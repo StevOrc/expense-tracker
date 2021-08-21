@@ -1,6 +1,6 @@
 import * as transactionsTypes from "./ActionTypes";
 
-export default (state, action) => {
+const transactionReducer = (state, action) => {
   switch (action.type) {
     case transactionsTypes.ADD_TRANSACTION:
       return {
@@ -20,3 +20,5 @@ export default (state, action) => {
       return state;
   }
 };
+
+export default transactionReducer;
